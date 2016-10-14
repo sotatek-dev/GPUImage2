@@ -31,13 +31,6 @@
 			remoteGlobalIDString = BCD1B12F1C66A262001F2BDC;
 			remoteInfo = GPUImageTests;
 		};
-		BC9FAADE1CA1FBE6009F1261 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC9FAAD51CA1FBD5009F1261 /* GPUImage-iOS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BCD1B1241C66A262001F2BDC;
-			remoteInfo = GPUImage;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -139,7 +132,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				BC9FAADF1CA1FBE6009F1261 /* PBXTargetDependency */,
 			);
 			name = SimpleVideoFilter;
 			productName = SimpleVideoFilter;
@@ -228,14 +220,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BC9FAADF1CA1FBE6009F1261 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GPUImage;
-			targetProxy = BC9FAADE1CA1FBE6009F1261 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BC9FAAC41CA1D3FC009F1261 /* Main.storyboard */ = {
